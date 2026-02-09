@@ -1,0 +1,29 @@
+{
+  "colonnes_cat": [
+    "Gender",
+    "Hormonal Changes",
+    "Family History",
+    "Race/Ethnicity",
+    "Body Weight",
+    "Calcium Intake",
+    "Vitamin D Intake",
+    "Physical Activity",
+    "Smoking",
+    "Prior Fractures"
+  ],
+  "columns_encoded": [
+    "Age",
+    "Gender_Male",
+    "Hormonal Changes_Postmenopausal",
+    "Family History_Yes",
+    "Race/Ethnicity_Asian",
+    "Race/Ethnicity_Caucasian",
+    "Body Weight_Underweight",
+    "Calcium Intake_Low",
+    "Vitamin D Intake_Sufficient",
+    "Physical Activity_Sedentary",
+    "Smoking_Yes",
+    "Prior Fractures_Yes"
+  ],
+  "n_features_in": 12
+}

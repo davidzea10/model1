@@ -65,6 +65,16 @@ def _normalize_body(body: dict) -> dict:
     return out
 
 
+@app.get("/")
+def root():
+    return {
+        "message": "API Prédiction Ostéoporose",
+        "docs": "/docs",
+        "health": "/health",
+        "predict": "POST /predict",
+    }
+
+
 @app.get("/health")
 def health():
     return {"status": "ok", "model_loaded": model is not None}

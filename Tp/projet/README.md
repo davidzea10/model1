@@ -45,5 +45,6 @@ En mettant `MODEL_API_URL` sur l’URL Render dans le backend, le frontend en lo
 
 ## 4. Déploiement sur Vercel
 
-- Déployer le **frontend** (dossier `frontend`) comme site statique Vite.
-- Déployer le **backend** (dossier `backend`) comme serverless ou Node server ; définir la variable d’environnement `MODEL_API_URL` avec l’URL Render.
+Voir le fichier **`DEPLOIEMENT_VERCEL.md`** pour les commandes Git et les étapes détaillées.
+
+En résumé : connecter le dépôt à Vercel, définir **Root Directory** = `Tp/projet/frontend`, ajouter la variable **`MODEL_API_URL`** (URL de l’API Render). Le dossier `frontend` contient des **Vercel Serverless Functions** dans `api/` qui redirigent `/api/predict` et `/api/health` vers Render ; pas besoin de déployer le backend Node à part.

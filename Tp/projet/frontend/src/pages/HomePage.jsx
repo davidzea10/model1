@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div className="page-home">
       {/* Section dédiée : image à gauche, texte à droite */}
-      <section className="section-visual" aria-label="Comprendre l'ostéoporose">
+      <section className="section-visual animate-on-scroll" aria-label="Comprendre l'ostéoporose">
         <div className="section-visual-order">
           <img
             src={osImg}
@@ -31,7 +31,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="hero">
+      <section className="hero animate-on-scroll">
         <h1 className="hero-title">
           Évaluez le risque d’ostéoporose
           <br />
@@ -51,30 +51,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="features">
+      <section className="features animate-on-scroll">
         <h2>Fonctionnalités</h2>
         <div className="features-grid">
-          <div className="feature-card">
+          <div className="feature-card animate-on-scroll">
             <h3>Prédiction</h3>
             <p>Risque Oui/Non et probabilité à partir des facteurs cliniques et du mode de vie.</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card animate-on-scroll">
             <h3>Explication</h3>
             <p>Les 3 à 5 facteurs qui ont le plus influencé la prédiction (âge, poids, calcium…).</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card animate-on-scroll">
             <h3>Conseils</h3>
             <p>Recommandations personnalisées : alimentation, activité, suivi médical.</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card animate-on-scroll">
             <h3>Rapport PDF</h3>
             <p>Téléchargez un rapport par prédiction (données, résultat, conseils).</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card animate-on-scroll">
             <h3>Historique</h3>
             <p>Consultez et rejoue les dernières prédictions (stockage en session).</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card animate-on-scroll">
             <h3>Tableau de bord</h3>
             <p>Statistiques : nombre de prédictions, répartition Oui/Non, âge moyen.</p>
           </div>

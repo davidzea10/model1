@@ -13,7 +13,7 @@ export default function DashboardPage() {
 
   return (
     <div className="page-dashboard">
-      <div className="page-head">
+      <div className="page-head animate-on-scroll">
         <h1>Tableau de bord</h1>
         <p>Statistiques sur les prédictions de la session (aucune donnée personnelle identifiante).</p>
       </div>

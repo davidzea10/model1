@@ -81,7 +81,7 @@ export default function PredictionPage() {
 
   return (
     <div className="page-prediction">
-      <div className="page-head">
+      <div className="page-head animate-on-scroll">
         <h1>Nouvelle prédiction</h1>
         <p>Renseignez le profil pour obtenir le risque et les conseils.</p>
       </div>

@@ -14,7 +14,7 @@ export default function HistoryPage() {
 
   return (
     <div className="page-history">
-      <div className="page-head">
+      <div className="page-head animate-on-scroll">
         <h1>Historique des prédictions</h1>
         <p>Dernières prédictions (stockées en session). Rejoue une prédiction pour revoir le détail.</p>
       </div>
